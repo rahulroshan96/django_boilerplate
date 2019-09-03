@@ -1,6 +1,6 @@
 from django.conf.urls import url
 from django.contrib.auth.views import login, logout
-from .views import register_user, index
+from .view import register_user, index
 
 
 urlpatterns = [
